@@ -1,0 +1,27 @@
+:root{
+  --mainBlue:#27B5BB;
+  --lightBlue:#3C5A9A;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+body{
+  font-family: 'Gugi', cursive !important;
+  background: var(--mainWhite)!important;
+  color: var(--mainDark)!important;
+}
+
+.text-title{
+  font-family: 'Wendy One', sans-serif;
+  letter-spacing:0.3rem;
+  text-transform:uppercase;
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--mainBlue);
+}
+.navbar-link{
+  color:white;
+}
